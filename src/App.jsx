@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import MyCard from "./components/MyCard";
 import Footer from "./components/Footer";
+import Descripcion from "./components/Descripcion";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         />
       </div>
       <Footer text="Explora nuestra galería de adopción de perros para encontrar a tu compañero perfecto. Tenemos una variedad de perros con diferentes personalidades y tamaños, todos en busca de un hogar amoroso. Cada imagen captura su esencia única. Adopta un perro y bríndale una segunda oportunidad. Encuentra a tu compañero peludo para siempre." />
+    <Descripcion texto="Mi propio props"/>
     </>
   );
 }

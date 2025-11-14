@@ -1,3 +1,4 @@
+import Descripcion from "./Descripcion";
 const Footer = ({ text }) => {
   return (
     <>
